@@ -1,0 +1,11 @@
+/* html, body{
+    margin: 0%;
+    padding: 0%; */
+/* } */
+.upper{
+        display: inline-block;  
+        margin: 3px 2px;
+        padding: 15px 32px;
+        font-size: 16px;
+        width: 250px;
+}
