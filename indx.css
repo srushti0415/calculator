@@ -9,7 +9,7 @@
     padding: 55px 75px;
     margin-bottom: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .btn{
@@ -21,9 +21,11 @@
     background: transparent;
     color: rgb(1, 26, 7);
     border: none;
+    margin-left: 10px;
+    
 }
-#first{
+/* #first{
     margin-top: 15px;
     margin-left: 20px;
 
-}
+} */
