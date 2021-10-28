@@ -1,19 +1,19 @@
-#calculator{
+.stylec{
     margin-left: 400px;
     display: inline-block;
     padding: 30px;
     border-radius: 30px;
+    background-color: rgb(167, 255, 167)
 }
 #ans{
-    
+    background-color: white;
     padding: 55px 75px;
     margin-bottom: 10px;
     border: none;
     border-radius: 20px;
 }
 
-.btn{
-   /* background-color: rgb(179, 255, 179); */
+#btn{
     font-weight: bolder;
     padding: 15px 25px;
     margin-left: 0px;
@@ -24,8 +24,3 @@
     margin-left: 10px;
     
 }
-/* #first{
-    margin-top: 15px;
-    margin-left: 20px;
-
-} */

@@ -1,6 +1,4 @@
-var a = document.getElementById("Seven")
-Btn.onclick = function seven() {
-    console.log(7)
+function myfunction() {
+    let a = document.getElementById("btn").innerHTML;
 }
- 
-    
+

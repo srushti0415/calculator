@@ -11,44 +11,42 @@
 
 <body>
     <!-- <h2>CALCULATOR</h2> -->
-    <div id="calculator" style="background-color: rgb(167, 255, 167)">
+    <div id="container" class="stylec">
+        <input type="text" name="calculator" id="ans">
+        
         <div>
-            <input type="text" name="answer" id="ans">
-        </div>
-        <div>
-            <button class="btn" id="first">C</button>
-            <button class="btn">%</button>
-            <button class="btn">X</button>
-            <button class="btn">/</button>
+            <button id="btn">C</button>
+            <button id="btn">%</button>
+            <button id="btn">X</button>
+            <button id="btn">/</button>
         </div>
 
-        <div  id="second">
-            <button class="btn" id="Seven" onclick="seven()">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn">*</button>
+        <div id="second">
+            <button id="btn" onclick="myfunction()">7</button>
+            <button id="btn">8</button>
+            <button id="btn">9</button>
+            <button id="btn">*</button>
         </div>
 
-        <div  id="third">
-            <button class="btn" id="first">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn">-</button>
+        <div id="third">
+            <button id="btn">4</button>
+            <button id="btn">5</button>
+            <button id="btn">6</button>
+            <button id="btn">-</button>
         </div>
 
         <div id="fourth">
-            <button class="btn" id="first">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn">+</button>
+            <button id="btn">1</button>
+            <button id="btn">2</button>
+            <button id="btn">3</button>
+            <button id="btn">+</button>
         </div>
 
         <div id="fifth">
-            <button class="btn" id="first">00</button>
-            <button class="btn">0</button>
-            <button class="btn">.</button>
-            <button class="btn" style="background-color: rgb(36, 73, 41);
-            border-radius: 60px;">=</button>
+            <button id="btn">00</button>
+            <button id="btn">0</button>
+            <button id="btn">.</button>
+            <button id="btn">=</button>
         </div>
     </div>
     <script src="./index1.js"></script>
