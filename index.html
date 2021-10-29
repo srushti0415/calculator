@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h2>CALCULATOR</h2> -->
+    <div id="container" class="stylec">
+        <h1 id="ans"> </h1>
+
+        <div>
+            <button id="btn" onclick="cancel()">C</button>
+            <button id="btn" onclick="myfunction('%')">%</button>
+            <button id="btn" onclick="back()">X</button>
+            <button id="btn" onclick="myfunction('/')">/</button>
+        </div>
+
+        <div id="second">
+            <button id="btn" onclick="myfunction(7)">7</button>
+            <button id="btn" onclick="myfunction(8)">8</button>
+            <button id="btn" onclick="myfunction(9)">9</button>
+            <button id="btn" onclick="myfunction('*')">*</button>
+        </div>
+
+        <div id="third">
+            <button id="btn" onclick="myfunction(4)">4</button>
+            <button id="btn" onclick="myfunction(5)">5</button>
+            <button id="btn" onclick="myfunction(6)">6</button>
+            <button id="btn" onclick="myfunction('-')">-</button>
+        </div>
+
+        <div id="fourth">
+            <button id="btn" onclick="myfunction(1)">1</button>
+            <button id="btn" onclick="myfunction(2)">2</button>
+            <button id="btn" onclick="myfunction(3)">3</button>
+            <button id="btn" onclick="myfunction('+')">+</button>
+        </div>
+
+        <div id="fifth">
+            <button id="btn" onclick="myfunction(00)">00</button>
+            <button id="btn" onclick="myfunction(0)">0</button>
+            <button id="btn" onclick="myfunction('.')">.</button>
+            <button id="btn" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
