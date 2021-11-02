@@ -1,0 +1,20 @@
+#value{
+    background-color: white;
+    padding: 40px;
+}
+#box{
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    width: 300px;
+    background-color: rgb(29, 7, 1);
+
+}
+#btn{
+    text-align: center;
+    margin: 10px;
+    background-color: transparent;
+    border: transparent;
+    color: thistle;
+    font-size: 40px;
+    padding: 10px 5px;
+}

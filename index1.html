@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
-<body>
-    <h1>SHERLOCK HOLMES</h1>
-   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique error quo ipsa, voluptatem perspiciatis ratione adipisci praesentium consequuntur est eius veniam ex molestias rem ullam. Quis ipsum quidem veniam. Doloremque!</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ducimus totam eum ut consequuntur voluptatem esse accusantium ipsam repellendus eos ratione deserunt veritatis dolor, in accusamus, molestias maxime, saepe recusandae?</p>
-    <input type="button" value="submit">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptates deserunt quo nisi nulla quam soluta corrupti, laborum quaerat, ipsum dicta aperiam dolore maxime autem illo saepe ducimus? Eveniet, laboriosam?</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, beatae! Nesciunt, distinctio aliquid! Iure cum, praesentium atque quaerat architecto numquam. Culpa praesentium animi recusandae accusantium magnam rem repellendus ab aut.</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptates deserunt quo nisi nulla quam soluta corrupti, laborum quaerat, ipsum dicta aperiam dolore maxime autem illo saepe ducimus? Eveniet, laboriosam?</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, beatae! Nesciunt, distinctio aliquid! Iure cum, praesentium atque quaerat architecto numquam. Culpa praesentium animi recusandae accusantium magnam rem repellendus ab aut.</p>
+<body>
+    <h1>calculator</h1>
+    <div id=box>
+        <h1 id="value"> </h1>
+
+        <div>
+            <button id="btn" onclick="cancle()">C</button>
+            <button id="btn" onclick="back()">X</button>
+            <button id="btn" onclick="onclickbtn()">%</button>
+            <button id="btn">/</button>
+        </div>
+
+        <div>
+            <button id="btn" onclick="onclickbtn(7)">7</button>
+            <button id="btn" onclick="onclickbtn(8)">8</button>
+            <button id="btn" onclick="onclickbtn(9)">9</button>
+            <button id="btn" onclick="onclickbtn('*')">*</button>
+        </div>
+
+        <div>
+            <button id="btn" onclick="onclickbtn(4)">4</button>
+            <button id="btn" onclick="onclickbtn(5)">5</button>
+            <button id="btn" onclick="onclickbtn(6)">6</button>
+            <button id="btn" onclick="onclickbtn('-')">-</button>
+        </div>
+
+        <div>
+            <button id="btn" onclick="onclickbtn(1)">1</button>
+            <button id="btn" onclick="onclickbtn(2)">2</button>
+            <button id="btn" onclick="onclickbtn(3)">3</button>
+            <button id="btn" onclick="onclickbtn('+')">+</button>
+        </div>
+
+        <div>
+            <button id="btn" onclick="onclickbtn(00)">00</button>
+            <button id="btn" onclick="onclickbtn(0)">0</button>
+            <button id="btn" onclick="onclickbtn('.')">.</button>
+            <button id="btn" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="./index1.js"></script>
 </body>
+
 </html>
